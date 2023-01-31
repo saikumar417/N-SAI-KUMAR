@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login-form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body{
+            margin: 200px 0 0 375px;
+        }
+        fieldset{
+            background: linear-gradient(45deg, lightblue, lightgreen);
+            text-align: center;
+            width: fit-content;
+            font-weight: 900;
+            font-style: italic;
+        }
+        legend{
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="animate__animated animate__fadeInLeft">
+        <fieldset>
+            <legend>Login</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">User-Id</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" placeholder="user id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Password">Password</label>
+                    </td>
+                    <td>
+                        <input type="text" id="password" placeholder="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Login">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="">Forgot Password....</a>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
